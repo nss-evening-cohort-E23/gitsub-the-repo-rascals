@@ -1,17 +1,4 @@
-const repos = [
-  {
-    id: 1,
-    name: 'repo1',
-    desc: 'desc',
-  },
-  {
-    id: 2,
-    name: 'repo2',
-    desc: 'desc',
-  },
-]
-
-
+import { repos } from "../data/repos.js";
 
 const renderToDom = (divId, htmlToRender) => {
   const selectedDiv = document.querySelector(divId);
