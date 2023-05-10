@@ -3,33 +3,33 @@ console.log('projects page');
 const projects = [
     {
         id: 1,
-        name: "Example 1",
-        description: "An example",
+        name: "Gossip Girl Fan Page",
+        description: "All things Gossip Girl",
 
     },
 
     {
         id: 2,
-        name: "Example 2",
-        description: "An example",
+        name: "Gumball Counting App",
+        description: "At last I can win that game",
     },
 
     {
         id: 3,
-        name: "Example 3",
-        description: "An example",
+        name: "Top Secret",
+        description: "Top secret",
     },
 
     {
         id: 4,
-        name: "Example 4",
-        description: "An example",
+        name: "Only Blurry Pictures of Cats",
+        description: "AHHHHH",
     },
 
     {
         id: 5,
-        name: "Example 5",
-        description: "An example",
+        name: "All My Jams",
+        description: "No jelly in here",
     },
 ];
 
