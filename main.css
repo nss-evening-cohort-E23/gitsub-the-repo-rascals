@@ -6,3 +6,32 @@ body {
 nav {
   width: 100%;
 }
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:2.5em;
+}
+
+.repo-container {
+ flex-basis: 50%;
+}
+
+article {
+  width: 20%;
+  background-color: grey;
+  margin-right: 200px;
+ padding: 20px;
+}
+
+#avatar {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 200px;
+ 
+}
+
+#fbtn {
+  width: 100%;
+  margin-bottom: 10px;
+}
