@@ -33,7 +33,8 @@ const addRepo = (e) => {
   const newRepoObj = {
     id: repos.length + 1,
     name: document.querySelector('#reponame').value,
-    desc: document.querySelector('#repodesc').value
+    desc: document.querySelector('#repodesc').value,
+    isPinned: false
   }
   
   repos.push(newRepoObj);
