@@ -35,3 +35,8 @@ article {
   width: 100%;
   margin-bottom: 10px;
 }
+
+.footer {
+  display: flex;
+  flex-basis: 100%;
+}
