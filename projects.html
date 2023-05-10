@@ -54,30 +54,24 @@
     </div>
   </nav>
   
-  <div class="projects-list">
-    <div class="card" style="width: 18rem;">
-      <div class="card-header">
-        Featured
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">A second item</li>
-        <li class="list-group-item">A third item</li>
-      </ul>
-    </div>
+  <div id="projects-list">
   </div>
-  
+
   <div class="projects-form">
-    <h4>Create a new project</h4>
+    <form id="form">
+
+   <h4>Create a new project</h4>
     <h8>Coordinate, track, and update your work in one place, so projects stay transparent and on schedule.</h8>
   <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label">Project board name</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1">
+    <input type="text" class="form-control" id="name">
   </div>
+
   <div class="mb-3">
     <label for="exampleFormControlTextarea1" class="form-label">Description</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="(required)" rows="3"></textarea>
-    <button type="button" class="btn btn-success">Create project</button>
+    <textarea class="form-control" id="description" placeholder="(required)" rows="3"></textarea>
+    <button type="submit" class="btn btn-success" id="form-submit">Create project</button>
+  </form>
   </div>
 
 
