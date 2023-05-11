@@ -14,6 +14,7 @@ const cardsOnDom = (array) => {
       <div class="card-body">
         <h5 class="card-title">${repo.name}</h5>
         <p>${repo.desc}</p>
+        <p>${repo.languages[repo].language}</p>
       </div>
       </div>
     </div>
