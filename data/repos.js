@@ -3,6 +3,11 @@ export const repos = [
     id: 1,
     name: 'Calculator',
     desc: 'A fully functional vanilla JS calculator',
+    languages: [
+      {
+        language: 'Javascript',
+      }
+    ],
     isPinned: false
   },
   {
