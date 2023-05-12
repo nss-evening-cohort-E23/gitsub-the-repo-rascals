@@ -45,7 +45,6 @@ let domString = "";
 }
 renderToDom("#pinned-repos", domString);
 } 
-
 cardsOnDom(pinnedRepos);
 
 
@@ -63,10 +62,7 @@ const createRepo = (e) =>{
     name: document.querySelector("#name").value,
     description: document.querySelector("#description").value,
     isPinned: true
-    
   }
-
-
   pinnedRepos.push(newRepoObject);
   cardsOnDom(pinnedRepos)
   form.reset();
