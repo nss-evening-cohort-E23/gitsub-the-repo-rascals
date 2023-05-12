@@ -7,14 +7,15 @@ const renderToDom = (divId, htmlToRender) => {
 
 const cardsOnDom = (array) => {
   let domString = '';
-  for (const repo of array) {
+  
+  for (const [index, repo] of array.entries()) {
     domString +=
     `<div class="col">
       <div class="card">
       <div class="card-body">
         <h5 class="card-title">${repo.name}</h5>
         <p>${repo.desc}</p>
-        <p>${repo.languages[repo].language}</p>
+        <p>${repos[index].languages[0].language}</p>
       </div>
       </div>
     </div>

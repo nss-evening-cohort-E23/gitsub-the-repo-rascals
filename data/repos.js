@@ -6,7 +6,7 @@ export const repos = [
     languages: [
       {
         language: 'Javascript',
-      }
+      },
     ],
     isPinned: false
   },
@@ -14,6 +14,11 @@ export const repos = [
     id: 2,
     name: 'Original LOZ Clone',
     desc: 'A clone of the original Legend of Zelda built using Python',
-    isPinned: false
+    isPinned: false,
+    languages: [
+      {
+        language: 'Python',
+      },
+    ],
   },
 ]
