@@ -32,25 +32,24 @@ const renderToDom = (divId, htmlToRender) => {
 const cardsOnDom = (array) => {
 let domString = "";
   for (const repo of array){
-  domString += `<div class="card" style="width: 18rem;">
+  domString += (repo.isPinned ?
+  `<div class="card" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">${repo.name}</h5>
     <p class="card-text">${repo.description}</p>
     <p class="card-text">${repo.isPinned}</p>
     <a href="#" class="card-link">Card link</a>
   </div>
-</div>`;
-
-if (repo.isPinned === true) {
+</div>` : ""
+  );
+}
 renderToDom("#pinned-repos", domString);
-}
-
-}
-//renderToDom("#pinned-repos", domString);
-  
 } 
 
-cardsOnDom(pinnedRepos)
+cardsOnDom(pinnedRepos);
+
+
+
 
 // create form 
 
