@@ -22,10 +22,10 @@ nav {
 
 article {
   width: 20%;
-  background-color: grey;
+  background-color: gainsboro;
   margin-right: 200px;
   padding: 20px;
-  height: 550px
+  height: 650px
 }
 
 #avatar {
