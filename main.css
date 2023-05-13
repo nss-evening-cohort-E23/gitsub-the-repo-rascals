@@ -1,3 +1,84 @@
-body{
-  background-color: blue;
+body {
+  margin: 0 auto;
+  width: 60%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  width: 100%;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:2.5em;
+}
+
+.repo-container {
+ flex-basis: 50%;
+}
+
+article {
+  width: 20%;
+  background-color: gainsboro;
+  margin-right: 200px;
+  padding: 20px;
+  height: 650px
+}
+
+#avatar {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 200px;
+ 
+}
+
+#fbtn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-basis: 100%;
+  margin-top: auto;
+}
+
+#links {
+  font-size: 30px;
+  width: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.fa {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+
+.fa-facebook {
+  color: black;
+}
+
+.fa-twitter {
+  color: black;
+}
+
+.fa-linkedin {
+  color: black;
+}
+
+.fa-youtube {
+  color: black;
 }
