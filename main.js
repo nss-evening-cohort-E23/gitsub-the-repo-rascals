@@ -37,8 +37,8 @@ let domString = "";
   <div class="card-body">
     <h5 class="card-title">${repo.name}</h5>
     <p class="card-text">${repo.description}</p>
-    <p class="card-text">${repo.isPinned}</p>
-    <a href="#" class="card-link">Card link</a>
+    <p class="card-text">Pinned Repo</p>
+    <a href="#" class="card-link">Repo Link</a>
   </div>
 </div>` : ""
   );
