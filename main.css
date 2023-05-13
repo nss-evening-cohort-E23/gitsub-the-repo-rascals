@@ -24,7 +24,8 @@ article {
   width: 20%;
   background-color: grey;
   margin-right: 200px;
- padding: 20px;
+  padding: 20px;
+  height: 550px
 }
 
 #avatar {
@@ -42,9 +43,7 @@ article {
 .footer {
   display: flex;
   flex-basis: 100%;
- 
   margin-top: auto;
-
 }
 
 #links {
