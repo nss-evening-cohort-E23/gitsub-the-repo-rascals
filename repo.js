@@ -25,6 +25,8 @@ const cardsOnDom = (array) => {
   renderToDom('#cards', domString);
 }
 
+
+
 cardsOnDom(repos);
 
 const form = document.querySelector('#repoform');
@@ -36,6 +38,11 @@ const addRepo = (e) => {
     id: repos.length + 1,
     name: document.querySelector('#reponame').value,
     desc: document.querySelector('#repodesc').value,
+    languages: [
+      {
+        language: document.querySelector('#repolang').value,
+      }
+    ],
     isPinned: false
   }
   

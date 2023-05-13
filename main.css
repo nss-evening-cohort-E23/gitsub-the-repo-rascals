@@ -22,9 +22,10 @@ nav {
 
 article {
   width: 20%;
-  background-color: grey;
+  background-color: gainsboro;
   margin-right: 200px;
- padding: 20px;
+  padding: 20px;
+  height: 650px
 }
 
 #avatar {
@@ -42,9 +43,7 @@ article {
 .footer {
   display: flex;
   flex-basis: 100%;
- 
   margin-top: auto;
-
 }
 
 #links {

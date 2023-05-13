@@ -41,14 +41,19 @@ const renderToDom = (divId, htmlToRender) => {
 const packagesOnDom = (packages) => {
   let domString ="";
   for (const package of packages) {
-    domString += `<div class="card" style="width: 18rem;">
+    domString += `
+    <div class="row row-cols-3 g-3">
+    <div class="col">
+    <div class="card" style="width: 18rem;">
     <div class="card-body">
       <h5 class="card-title">${package.pkgName}</h5>
       <p class="card-text">${package.pkgDescript}</p>
       <button class="btn btn-outline-dark" id="pkgLearn">Learn More</button>
       <button class="btn btn-outline-dark" id="pkgDelete--${package.id}">Delete</button>
     </div>
-  </div>`;
+  </div>
+  </div>
+  </div>`
   }
 
   renderToDom("#pkgCards", domString);
